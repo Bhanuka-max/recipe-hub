@@ -1,0 +1,151 @@
+<html>  
+<head>
+   
+    <title>Simple Dessert Recipes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #fef9f3;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffd1dc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #d64e71;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #8a4b5c;
+            font-style: italic;
+        }
+        
+        .recipe {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid #ffaec0;
+        }
+        
+        h2 {
+            color: #d64e71;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px dashed #ffd1dc;
+        }
+        
+        h3 {
+            color: #8a4b5c;
+            margin: 15px 0 10px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            color: #8a4b5c;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .recipe {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Dessert Recipes</h1>
+        <p class="subtitle">Easy-to-make treats for any occasion</p>
+    </header>
+    
+    <main>
+        <div class="recipe">
+            <h2>No-Bake Chocolate Oat Bars</h2>
+            
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup butter</li>
+                <li>1/2 cup packed brown sugar</li>
+                <li>1 teaspoon vanilla extract</li>
+                <li>3 cups quick-cooking oats</li>
+                <li>1 cup semisweet chocolate chips</li>
+                <li>1/2 cup peanut butter</li>
+            </ul>
+            
+            <h3>Steps:</h3>
+            <ol>
+                <li>Grease a 9x9 inch square pan.</li>
+                <li>Melt butter in a large saucepan over medium heat.</li>
+                <li>Stir in brown sugar and vanilla, then mix in the oats.</li>
+                <li>Cook over low heat for 2 to 3 minutes.</li>
+                <li>Press half of the mixture into the bottom of the prepared pan.</li>
+                <li>Melt the chocolate chips and peanut butter in a small saucepan over low heat.</li>
+                <li>Spread the chocolate mixture over the oat layer.</li>
+                <li>Top with remaining oat mixture, pressing down gently.</li>
+                <li>Cover and refrigerate for 2 to 3 hours or overnight.</li>
+                <li>Cut into bars and serve.</li>
+            </ol>
+        </div>
+        
+        <div class="recipe">
+            <h2>3-Ingredient Peanut Butter Cookies</h2>
+            
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup peanut butter</li>
+                <li>1 cup white sugar</li>
+                <li>1 egg</li>
+            </ul>
+            
+            <h3>Steps:</h3>
+            <ol>
+                <li>Preheat oven to 350°F (175°C).</li>
+                <li>Mix peanut butter, sugar, and egg together in a bowl until smooth.</li>
+                <li>Roll mixture into small balls and place on a baking sheet.</li>
+                <li>Flatten each ball with a fork, making a criss-cross pattern.</li>
+                <li>Bake for 6 to 8 minutes until edges are golden.</li>
+                <li>Let cool on the baking sheet for 2 minutes before transferring to a wire rack.</li>
+            </ol>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Enjoy these simple and delicious desserts!</p>
+    </footer>
+</body>
+</html>
